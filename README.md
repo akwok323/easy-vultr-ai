@@ -4,19 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 ![Docker Pulls](https://img.shields.io/docker/pulls/ollama/ollama)
 
-[繁體中文](#繁體中文) | [English](#english)
-
----
-
-## 繁體中文
-
-一個專為 Vultr 雲端主機優化的 **「一鍵自動部署腳本」**。只需 5 分鐘，自動幫您架設好私有化的 **DeepSeek-R1 / Llama 3** 運行環境，並內建極其流暢、類似 ChatGPT 的漂亮網頁介面（Open WebUI）！
-
-### ✨ 核心特色
-* **🚀 真正一鍵部署**：無須任何 Linux 運維經驗，複製貼上一行指令，Docker、Ollama、WebUI 全部自動搞定。
-* **💰 極致省錢（CPU 優化）**：完美契合 Vultr 的平價平臺（如 \$5-10/月方案）。預設採用輕量高效的 `DeepSeek-R1:1.5b` 模型，沒有 GPU 也能流暢對話。
-* **🔒 100% 隱私安全**：所有資料與對話完全保留在您的 Vultr 伺服器本地端，拒絕資料外洩。
-* **🎨 開箱即用**：內建整合最新版 Open WebUI，支援語音輸入、文件上傳分析（RAG）與歷史紀錄管理。
+[English](#english) | [繁體中文](#繁體中文) | [简体中文](#简体中文)
 
 ---
 
@@ -32,6 +20,30 @@ A **one-click automated deployment script** optimized specifically for Vultr clo
 
 ---
 
+## 繁體中文
+
+一個專為 Vultr 雲端主機優化的 **「一鍵自動部署腳本」**。只需 5 分鐘，自動幫您架設好私有化的 **DeepSeek-R1 / Llama 3** 運行環境，並內建極其流暢、類似 ChatGPT 的漂亮網頁介面（Open WebUI）！
+
+### ✨ 核心特色
+* **🚀 真正一鍵部署**：無須任何 Linux 運維經驗，複製貼上一行指令，Docker、Ollama、WebUI 全部自動搞定。
+* **💰 極致省錢（CPU 優化）**：完美契合 Vultr 的平價平臺（如 \$5-10/月方案）。預設採用輕量高效的 `DeepSeek-R1:1.5b` 模型，沒有 GPU 也能流暢對話。
+* **🔒 100% 隱私安全**：所有資料與對話完全保留在您的 Vultr 伺服器本地端，拒絕資料外洩。
+* **🎨 開箱即用**：內建整合最新版 Open WebUI，支援語音輸入、文件上傳分析（RAG）與歷史紀錄管理。
+
+---
+
+## 简体中文
+
+一個專為 Vultr 云伺服器優化的 **「一键自动部署脚本」**。只需 5 分钟，自動幫您架设好私有化的 **DeepSeek-R1 / Llama 3** 运行环境，並內置极其流畅、類似 ChatGPT 的漂亮網頁界面（Open WebUI）！
+
+### ✨ 核心特色
+* **🚀 真正一键部署**：无需任何 Linux 运维经验，复制粘贴一行指令，Docker、Ollama、WebUI 全部自动搞定。
+* **💰 极致省钱（CPU 优化）**：完美契合 Vultr 的平价平台（如 \$5-10/月方案）。默认采用轻量高效的 `DeepSeek-R1:1.5b` 模型，没有 GPU 也能流畅对话。
+* **🔒 100% 隐私安全**：所有数据与对话完全保留在您的 Vultr 服务器本地端，拒绝数据外泄。
+* **🎨 开箱即用**：内置整合最新版 Open WebUI，支持语音输入、文件上传分析（RAG）与历史纪录管理。
+
+---
+
 ## 🏗️ 系統架構 (Architecture)
 
 ```text
@@ -42,12 +54,13 @@ A **one-click automated deployment script** optimized specifically for Vultr clo
                                                     │     └── 🧠 Ollama Backend (Port 11434)
                                                     └────── 📦 DeepSeek-R1 Model
 ```
+
 ---
 
 ## 🛠️ 快速上手 (Quick Start)
 
 ### Step 1: 準備您的 Vultr 伺服器 (Prepare Your Vultr Server)
-在 Vultr 後台部署一台新的雲端主機（Deploy a new instance on Vultr）:
+在 Vultr 後台部署一台新的雲端主機 (Deploy a new instance on Vultr):
 * **OS / 作業系統**: **Ubuntu 22.04 LTS** or **Ubuntu 24.04 LTS**.
 * **Specs / 規格**: At least 1 vCPU / 2GB RAM (Intel/AMD High Performance recommended).
 
@@ -84,11 +97,19 @@ sudo docker compose exec -d ollama ollama run llama3
 ## 📄 開源協議 (License)
 
 本專案採用 [MIT License](LICENSE) 協議開源。
+
 This project is open-sourced under the [MIT License](LICENSE).
+
+本专案采用 [MIT License](LICENSE) 协议开源。
 
 ---
 
 ## ⭐ 支持我們 (Support Us)
 
 如果您覺得這個專案有幫助，請幫忙點擊右上角的 **⭐ Star**！
+
 If you find this project helpful, please give us a **⭐ Star** on the top right!
+
+如果您觉得这个专案有帮助，请帮忙点击右上角的 **⭐ Star**！
+
+

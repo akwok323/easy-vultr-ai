@@ -1,7 +1,7 @@
 # ⚡ Easy Vultr AI (vultr-oneclick-llm)
 
-[![GitHub Stars](https://img.shields.io/github/stars/andersonkwok/easy-vultr-ai)]
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![GitHub Stars](https://img.shields.io/github/stars/andersonkwok/easy-vultr-ai)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Docker Pulls](https://img.shields.io/docker/pulls/ollama/ollama)
 
 [English](#english) | [繁體中文](#繁體中文) | [简体中文](#简体中文)
